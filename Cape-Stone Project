@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnVerse - Master New Skills Online</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="editing.css">
+</head>
+<body>
+    <a href="#main-content" class="skipLink">Skip to main content</a>
+    <header class="siteheader">
+        <div class="container headercontent">
+            <div class="logo">
+                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                Versetutor
+            </div>
+            <nav class="mainNav" aria-label="Primary Navigation">
+                <ul>
+                    <li><a href="#hero">Home Page</a></li>
+                    <li><a href="#courses">Buy Courses</a></li>
+                    <li><a href="#pricing">Price List</a></li>  
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="mainContent">
+        <section id="hero" aria-labelledby="hero-title">
+            <div class="heroContent">
+                <h1 id="heroTitle">Learn New Skills and Achive your Goals with Versetutor.</h1>
+                <p>Unlock thousands of expert made courses on cs development,designing and business managementr and analytics all on one webpage.</p>
+                <a href="#courses" class="btn btnPrimary">Start Learning Today</a>
+            </div>
+        </section>
+        <section id="courses" class="container" aria-labelledby="courses-heading">
+            <header class="sectionHeader">
+                <h2 id="coursesHeading">Most Popular Courses-</h2>
+                <p>Curated Paths Designed by Industry Leaders.</p>
+            </header>
+            <div class="courseGrid">
+                <article class="courseCard" aria-labelledby="course-1-title">
+                    <div class="course-image-wrapper">
+                        <img src="https://placehold.co/600x400/5A67F9/ffffff?text=Web+Dev" alt="Abstract illustration of web development code on a screen" class="course-image">
+                    </div>
+                    <div class="courseInfo">
+                        <h3 id="course-1-title">Full Stack Web Development</h3>
+                        <p class="courseMeta">120 hrs-Advanced- By Han</p>
+                        <p>Build real world applications using React,Node.js and MongoDB.</p>
+                        <div class="price">20,000 Rs.</div>
+                        <a href="#" class="btn btn-secondary" aria-label="Enroll in Full-Stack Web Development Bootcamp">Enroll Now</a>
+                    </div>
+                </article>
+                <article class="courseCard" aria-labelledby="course-2-title">
+                    <div class="course-image-wrapper">
+                        <img src="https://placehold.co/600x400/00BFB2/ffffff?text=Design" alt="Illustration of a designer working with color palettes and user interface elements" class="course-image">
+                    </div>
+                    <div class="courseInfo">
+                        <h3 id="course-2-title">Modern UX/UI Designer</h3>
+                        <p class="courseMeta">40 hrs-Beginner Friendly- By Dan</p>
+                        <p>Master Figma and create user centered digital products from scratch.</p>
+                        <div class="price">15,000 Rs.</div>
+                        <a href="#" class="btn btn-secondary" aria-label="Enroll in Modern UX/UI Design Principles">Enroll Now</a>
+                    </div>
+                </article>
+                <article class="courseCard" aria-labelledby="course-3-title">
+                    <div class="course-image-wrapper">
+                        <img src="https://placehold.co/600x400/1F2937/ffffff?text=Data+Science" alt="Stylized chart and graph icons representing data analysis" class="course-image">
+                    </div>
+                    <div class="courseInfo">
+
+
+<h3 id="course-3-title">Data Science and AI</h3>
+                <p class="courseMeta">75 hrs-Intermediate- By Kan</p>
+                        <p>Learn machine learning basics and data cleaning with py libraries.</p>
+                        <div class="price">10,000 Rs.</div>
+                        <a href="#" class="btn btn-secondary" aria-label="Enroll in Python for Data Science & AI">Enroll Now</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="testimonials" aria-labelledby="testimonials-heading">
+            <div class="container">
+                <header class="sectionHeader">
+                    <h2 id="testimonials-heading">What Our Students Say</h2>
+                </header>
+                <div class="testimonialFlex">
+                    <article class="testimonialCard">
+                        <p>"Learning by Versetutor gave me the confidence to switch careers. The Full-Stack course was incredibly detailed and project-focused. Highly recommend!"</p>
+                        <div class="testimonialAuthor">
+                            <img src="https://placehold.co/50x50/3498db/ffffff?text=AS" alt="Avatar of testimonial author Anna S." class="testimonial-avatar">
+                            <div>
+                                <strong>Ambuj Tiwari</strong>
+                                <p>Web Developer</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="testimonialCard">
+                        <p>"The UX/UI content is top tier. I loved the practical assignments and the feedback loop with the instructor. My design portfolio improved tenfold."</p>
+                        <div class="testimonialAuthor">
+                            <img src="https://placehold.co/50x50/2ecc71/ffffff?text=MJ" alt="Avatar of testimonial author Michael J." class="testimonial-avatar">
+                            <div>
+                                <strong>Sumiran</strong>
+                                <p>Web Designer</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="pricing" class="container" aria-labelledby="pricing-heading">
+            <header class="sectionHeader">
+                <h2 id="pricing-heading">Flexible Plans Avilable for Every Learner</h2>
+            </header>
+            <div class="pricing-grid">
+                <article class="planCard" aria-labelledby="plan-1-title">
+                    <h3 id="plan-1-title">Basic Access</h3>
+                    <div class="planPrice">5,000 Rs<small> / month</small></div>
+                    <p>Access to 5 Essential Courses and Community Support.</p>
+                    <ul class="planFeatures">
+                        <li><i class="fas fa-check" aria-hidden="true"></i> 5 Course Limit</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Monthly Live Q&A</li>
+                        <li><i class="fas fa-times" aria-hidden="true"></i> No Certificate</li>
+                        <li><i class="fas fa-times" aria-hidden="true"></i> No Downloadable Assets</li>
+                    </ul>
+                    <a href="#" class="btn btnPrimary">Choose Basic</a>
+                </article>
+                <article class="planCard" style="border-color: var(--clr-primary);" aria-labelledby="plan-2-title">
+                    <h3 id="plan-2-title">Pro Learner</h3>
+                    <div class="planFrice">7,500 Rs <small> / month</small></div>
+                    <p>Unlimited access to all courses, projects, and certification.</p>
+                    <ul class="planFeatures">
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Unlimited Courses</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Weekly Mentorship Sessions</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Official Certificate</li>
+
+
+<li><i class="fas fa-check" aria-hidden="true"></i> Downloadable Assets</li>
+                    </ul>
+                    <a href="#" class="btn btnPrimary" style="background-color: var(--clr-secondary); border-color: var(--clr-secondary);">Choose Pro</a>
+                </article>
+                <article class="planCard" aria-labelledby="plan-3-title">
+                    <h3 id="plan-3-title">Team Plan</h3>
+                    <div class="planPrice">10,000 Rs <small> / month</small></div>
+                    <p>Designed for Small Teams and Companies (Up To 5 Users).</p>
+                    <ul class="planFeatures">
+                        <li><i class="fas fa-check" aria-hidden="true"></i> All Pro Features</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Group Dashboards</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Dedicated Account Manager</li>
+                        <li><i class="fas fa-check" aria-hidden="true"></i> Custom Training Paths</li>
+                    </ul>
+                    <a href="#" class="btn btnPrimary">Choose Team</a>
+                </article>
+            </div>
+        </section>
+        <section id="contact" class="container" aria-labelledby="contact-heading">
+            <header class="sectionHeader">
+                <h2 id="contactHeading">Get in Touch</h2>
+                <p>Any Queries About Courses? Send us a message.</p>
+            </header>
+            <div class="contactFormWrapper">
+                <form action="#" method="POST">
+                    <div class="formGroup">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter Your Full Name">
+                    </div>
+                    <div class="formGroup">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="xyz123@gmail.com">
+                    </div>
+                    <div class="formGroup">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="ie-Course Inquiry">
+                    </div>
+                    <div class="formGroup">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required placeholder="Type Your Message Here..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn Primary" style="width: 100%;">Send Inquiry</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="siteFooter" aria-label="Site Footer and Contact Information">
+        <div class="container footer-content">
+            <p>&copy; 2025 versetutor.Inc. All rights reserved.</p>
+            <nav class="footerNav" aria-label="Secondary Navigation">
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
